@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #c98e1852;
+  color: #181717;
+  line-height: 2;
+  padding-bottom: 40px;
+}
+
+header {
+  background-color: #8b2626;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 4px;
+}
+
+nav {
+  font-size: 1rem;
+  margin-top: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+section h2 {
+  color: #8b2626;
+  border-bottom: 2px solid #8b2626;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+  font-size: 1.5rem;
+}
+
+.card-grid {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #e2dcd0;
+  border-radius: 8px;
+  padding: 20px;
+  flex: 1;
+  min-width: 100px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #eee;
+}
+
+.card h3 {
+  color: #8b2626;
+  margin-bottom: 12px;
+  font-size: 1.25rem;
+}
+
+.card p {
+  font-size: 0.92rem;
+  color: #444444;
+  margin-bottom: 12px;
+}
+
+form {
+  background-color: #ffffff;
+  border: 1px solid #e2dcd0;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #333333;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 16px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 0.95rem;
+}
+
+button {
+  background-color: #8b2626;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+button:hover {
+  background-color: #6e1e1e;
+}
+
+hr {
+  margin: 40px 0;
+  border: 0;
+  border-top: 1px solid #cb0f0fcf;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.85rem;
+  color: gray;
+  margin-top: 40px;
+}
